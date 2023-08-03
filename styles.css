@@ -52,16 +52,16 @@ body {
     min-width: 320px;
     overflow-x: hidden;
     word-wrap: break-word;
-    background: linear-gradient(-50deg, #A58CB3, #838BC2, #EAE7FA, #D9A1A0);
-    background-size: 400% 400%;
-    animation: gradient 20s ease infinite;
+    background: linear-gradient(-50deg, #A58CB3, #838BC2, #EAE7FA);
+    background-size: 200% 200%;
+    animation: gradient 25s ease infinite;
 }
 @keyframes gradient {
     0% {
         background-position: 100% 50%;
     }
-    50% {
-        background-position: 25% 50%;
+    25% {
+        background-position: 0% 50%;
     }
     100% {
         background-position: 100% 50%;
@@ -369,13 +369,13 @@ ul#icons02 {
     transition: fill 0.25s ease;
 }
 #icons01 a {
-    background-color: #febecf;
+    background-color: #9890bb;
 }
 #icons01 a svg {
     fill: #000000;
 }
 #icons01 a:hover {
-    background-color: #FFFFFF !important;
+    background-color: #b8abff !important;
 }
 #icons01 li a + svg {
     transition: transform 0.25s ease, fill 0.25s ease, stroke 0.25s ease;
@@ -398,7 +398,7 @@ h1 span[style], h2 span[style], h3 span[style], p span[style], h1 strong, h2 str
     -webkit-text-fill-color: currentcolor;
 }
 #text06 {
-    color: #febecf;
+    color: #ccbefe;
     font-family: 'Inter', sans-serif;
     font-size: 1em;
     line-height: 2;
@@ -578,7 +578,7 @@ h1 span[style], h2 span[style], h3 span[style], p span[style], h1 strong, h2 str
 #image01 .frame img {
     transition: none;
 }
-.icc-credits {
+/*.icc-credits {
     display: block;
     opacity: 1 !important;
     position: relative;
@@ -650,7 +650,7 @@ h1 span[style], h2 span[style], h3 span[style], p span[style], h1 strong, h2 str
     color: rgba(145,145,145,0.498);
     margin-top: 1.5rem !important;
     text-transform: lowercase;
-}
+} */
 @media (max-width: 1920px) {
 }
 @media (max-width: 1680px) {
