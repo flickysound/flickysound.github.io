@@ -52,19 +52,19 @@ body {
     min-width: 320px;
     overflow-x: hidden;
     word-wrap: break-word;
-    background: linear-gradient(-45deg, #ae96fd, #febecf, #e7fda0, #87c4fd);
+    background: linear-gradient(-50deg, #A58CB3, #838BC2, #EAE7FA, #D9A1A0);
     background-size: 400% 400%;
-    animation: gradient 10s ease infinite;
+    animation: gradient 20s ease infinite;
 }
 @keyframes gradient {
     0% {
-        background-position: 0% 50%;
-    }
-    50% {
         background-position: 100% 50%;
     }
+    50% {
+        background-position: 25% 50%;
+    }
     100% {
-        background-position: 0% 50%;
+        background-position: 100% 50%;
     }
 }
 body:before {
